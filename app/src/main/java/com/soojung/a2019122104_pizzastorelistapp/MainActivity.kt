@@ -28,7 +28,7 @@ class MainActivity : BaseActivity() {
 
         addPizzaStores()
 
-        pizzaStoreAdapter = pizzaStoreAdapter(mContext, R.layout.pizza_store_list_item, pizzaStoreList)
+        pizzaStoreAdapter = PizzaStoreAdapter(mContext, R.layout.pizza_store_list_item, pizzaStoreList)
         pizzaStoreListView.adapter = pizzaStoreAdapter
 
     }
